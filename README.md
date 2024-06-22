@@ -63,7 +63,7 @@ docker ps
 You should see a container name matching what you have in your `.env` file. If your project scope goes beyond local
 deployment, you might want to consider where to put secrets and where to put other variables.
 
-### Step 8: Connect to PostgreSQL
+### Step 6: Connect to PostgreSQL
 
 You can connect to the PostgreSQL instance using `psql` or any database management tool like DBeaver or pgAdmin.
 
@@ -86,6 +86,20 @@ psql -h localhost -U your_username -d your_database
    - **Password**: `your_password`
 5. Click **Finish** to establish the connection.
 
+
+## Conclusion
+
+You have successfully set up a local PostgreSQL database using Pulumi and Docker. Feel free to customize the setup as needed for your projects.
+
+---
+
+### Notes:
+
+- Replace `your_username`, `your_password`, `your_database`, and `/path/to/your/data` with your actual values.
+- Ensure you have the correct permissions for the data directory on your host machine.
+
+
+
 ## Additional Commands
 
 ### Preview Changes
@@ -103,15 +117,3 @@ To remove all resources created by Pulumi:
 ```bash
 pulumi destroy
 ```
-
-## Conclusion
-
-You have successfully set up a local PostgreSQL database using Pulumi and Docker. Feel free to customize the setup as needed for your projects.
-
----
-
-### Notes:
-
-- Replace `your_username`, `your_password`, `your_database`, and `/path/to/your/data` with your actual values.
-- Ensure you have the correct permissions for the data directory on your host machine.
-
