@@ -1,0 +1,7 @@
+config:
+    pulumi-postgres:postgresUser:
+        v: ${POSTGRES_USER}
+    pulumi-postgres:postgresPassword:
+        v: ${POSTGRES_PASSWORD}
+    pulumi-postgres:postgresDb:
+        v: ${POSTGRES_DB}

@@ -1,0 +1,6 @@
+name: pulumi-postgres-db-local
+runtime: python
+description: A Pulumi project to deploy the specified version of Postgres locally using Docker.
+configuration:
+    postgresVersion: 16
+main: __main__.py

@@ -1,0 +1,5 @@
+# credential file
+.env
+
+# PyCharm generated
+.idea/
