@@ -2,6 +2,8 @@
 
 This repository contains a Pulumi setup for deploying a PostgreSQL database locally using Docker. Follow the steps below to set up and verify your local PostgreSQL instance.
 
++ [README for PostgREST](README_PostgREST.md)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
