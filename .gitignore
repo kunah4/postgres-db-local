@@ -1,8 +1,13 @@
 # project temp notes
 Notes.md
 
-# credential file
+# credential files
 .env
+postgrest.conf
 
 # PyCharm generated
 .idea/
+
+
+__pycache__/
+
